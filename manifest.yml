@@ -2,6 +2,7 @@ applications:
 - name: mongoblog 
   memory: 64M
   disk_quota: 256M
+  stack: cflinuxfs3
   buildpacks: 
   - python_buildpack
   # services:
